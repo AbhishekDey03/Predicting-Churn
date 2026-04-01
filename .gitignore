@@ -6,3 +6,4 @@ churn_analysis_helpers.py
 *.png
 ./analysis_outputs/*
 ./__pycache__/*
+clean_for_github.py
