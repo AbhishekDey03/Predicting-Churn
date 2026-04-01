@@ -3,5 +3,6 @@
 *.pth
 *.pt
 churn_analysis_helpers.py
-./analysis_outputs/
-./__pycache__/
+*.png
+./analysis_outputs/*
+./__pycache__/*
