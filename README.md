@@ -8,11 +8,11 @@ This project studies how different model classes behave on tabular data, using c
 
 - **Overall performance**
   - XGBoost achieves higher ranking performance (AUC ≈ 0.933) compared to RealMLP (AUC ≈ 0.917).
-  - The gap reflects stronger exploitation of interaction structure by trees on the test set
+  - The gap reflects stronger exploitation of interaction structure by trees on the test set.
   - Final Kaggle LB reflects a much stronger performance with RealMLP, indicating some overfitting on the trees.
 
 - **Risk concentration (ranking sharpness)**
-  - XGBoost produces slightly more extreme separation between low- and high-risk groups (spread ≈ 0.865 vs 0.829).
+  - XGBoost produces slightly more extreme separation between low- and high-risk groups (sprea/d ≈ 0.865 vs 0.829).
   - In practice, this means XGBoost concentrates churners more tightly in the top decile.
 
 - **Feature usage patterns**
